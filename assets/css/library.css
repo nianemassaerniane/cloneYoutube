@@ -1,0 +1,40 @@
+.libraryItem{
+    width: 290px;
+    height: 300px;
+    cursor: pointer;
+}
+.libraryItem:hover{
+    background-color: #efefef;
+    border-radius: 20px;
+}
+.libraryVideoPoster{
+    width: 290px;
+    height: 170px;
+}
+.libraryItem .libraryVideoPoster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.videoTitle{font-weight: bold;}
+.ownerVideoFullName{
+    color: gray;
+}
+.ownerVideoFullName:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.videoMetaViews::after{
+    content: " . ";
+}
+.videoMetaTimes::before{
+    content: " ";
+}
+.fa-youtube{
+    color: red;
+    font-size: 2.2rem;
+}
+.fa-youtube:hover{
+    font-size: 2.5rem;
+}

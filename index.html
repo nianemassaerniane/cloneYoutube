@@ -1,17 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clone de youtube</title>
+    
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/e1e907064b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="shortcut icon" href="/assets/videos/faveIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>clone de youtube</title>
 </head>
+
 <body>
-    <header>header</header>
+    <header class="sticky" >
+        <div class="header-top box flex">
+            <div class="header-top-left flex-1 flex center-V">
+                <div class="header-icon" id="collapse">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <a href="#">
+                    <div class="logo">
+                        <img src="/assets/images/logo.png" alt="" width="100px">
+                        <img src="assets/videos/faveIcon.png" alt="logo smartphone" width="30px">
+                    </div>
+
+                </a>
+            </div>
+            <div class="header-top-center flex-3 flex center-V center-H">
+                <div class="search-bar"><input type="search" placeholder="Rechercher"></div>
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="header-top-right flex-1 flex" >
+                <a href="#"><i class="uil uil-microphone"></i></a>
+                <a href="#"><i class="uil uil-import"></i></a>
+                <a href="#"><i class="uil uil-apps"></i></a>
+                <a href="#"><i class="uil uil-bell"></i></a>  
+                <div class="userAcconunt">
+                    <img src="/assets/images/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <nav class="header-left  fixed box" id="menu">
+            <ul>
+                <li><a  href="">Accueil</a></li>
+                <li><a href=""></a>Bibliothèque</li>
+                <li><a  href=""></a>Compte</li>
+                <li><a href=""></a>Video</li>
+                <li><a href=""></a>Mettre en  ligne</li>
+                <li><a href=""></a> Se connecter</li>
+                <li><a href=""></a>S'inscrire</li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div class="container-home">conteneur principal</div>
+        <section class="container-home -xl">
+           <div class="libraryContainer flex wrap gap-10 center-H">
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/1.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">42K vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/4.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">52K vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/3.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">82K vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/5.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">541K vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/6.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">34K vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/7.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">1542 vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/9.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">4542 vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/10.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">542 vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="libraryItem flex  col">
+                <div class="libraryVideoPoster relative">
+                    <img src="assets/images/11.webp" alt="musculation">
+                    <i class="fab fa-youtube absolute center-element"></i>
+                </div>
+                <div class="libraryVideoMeta flex center-v  gap-5">
+                    <div class="profilePicture">
+                        <img src="assets/images/profile/1.jpg" alt="">
+                    </div>
+                    <div class="videoMeta">
+                        <div class="videoTitle">Cloner le reseau social  facebook en partant  de zéro</div>
+                        <div class="ownerVideoFullName">web design</div>
+                        <div class="videoMetaData flex">
+                          <div class="videoMetaViews">542 vues</div>  
+                          <div class="videoMetaTimes">il  y'a  21heures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </section>
     </main>
     <footer>footer</footer>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
